@@ -1,0 +1,25 @@
+    body {
+        width: 20vw
+    }
+
+    .current-section {
+        background: none repeat scroll 0 0 #222222;
+        color: white;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .show {
+        visibility: visible;
+    }
+
+
+    .current-section a {
+        font-size: 1rem;
+        color:blanchedalmond;
+        margin: auto;
+    }
